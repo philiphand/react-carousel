@@ -1,0 +1,19 @@
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+#carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 100vw;
+  background-color: gray;
+  overflow-x: visible;
+}
+
+#carousel {
+  height: 500px;
+  white-space: nowrap;
+  transition: all 200ms;
+}
